@@ -15,7 +15,7 @@ const config = {
 };
 
 
-firebase.initializeApp(config);
+firebase.initializeApp(config); 
 
 app.get('/screams', (req, res) => {
     admin
